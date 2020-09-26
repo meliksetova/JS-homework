@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+let employee = {
+    name: 'Mohammad',
+    age: 17,
+    location: 'New York',
+    paycheckHistory: [
+      {
+        month: 'August',
+        amount: 2000,
+      },
+      {
+        month: 'September',
+        amount: 1000,
+      },
+    ],
+  };
+
+
+let employeeSummary=(employee)=>{
+    if (!employee){
+        console.log("Please enter an employee info")
+    } else
+    console.log(`${employee.name} is ${employee.age} years old, 
+    lives in ${employee.location} and his last paycheck was $${employee.paycheckHistory[1].amount}.`)
+}
+
+employeeSummary(employee);
+
+employee.age=++employee.age;
+employee.paycheckHistory[1].amount=3000;
+
+employeeSummary(employee);
+     </script>
+    
+</body>
+</html>
