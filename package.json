@@ -1,0 +1,27 @@
+{
+  "name": "rest-api-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha './**/*.test.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meliksetova/JS-homework.git"
+  },
+  "keywords": [
+    "rest",
+    "api"
+  ],
+  "author": "Karina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meliksetova/JS-homework/issues"
+  },
+  "homepage": "https://github.com/meliksetova/JS-homework#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3"
+  }
+}
